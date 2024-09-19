@@ -14,8 +14,7 @@ public class hello {
 
         // Display the input values
         System.out.println("Hello " + name + ", you are " + age + " years old.");
-
-        // Close the scanner to prevent resource leak
+        System.out.println("hello world");
         scanner.close();
     }
 }
